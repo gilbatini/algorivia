@@ -34,9 +34,9 @@ export function ContactForm() {
     <section className="bg-black py-24 px-6">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-4xl font-bold text-white mb-4">Get in touch</h2>
-        <p className="text-white/60 mb-10">Tell us about your project and we'll be in touch within 24 hours.</p>
+        <p className="text-white/60 mb-10">Tell us about your project and we&apos;ll be in touch within 24 hours.</p>
         {state === 'success' ? (
-          <p className="text-cyan-400 text-lg">Thanks — we'll be in touch soon.</p>
+          <p className="text-cyan-400 text-lg">Thanks — we&apos;ll be in touch soon.</p>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col gap-5">
             <Input label="Name" id="name" name="name" placeholder="Jane Smith" required />
